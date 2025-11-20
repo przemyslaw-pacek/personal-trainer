@@ -1,0 +1,37 @@
+.list {
+  background: #222;
+  list-style: none;
+  font-size: xx-large;
+  display: grid;
+  grid-template-columns: repeat(7, auto);
+  gap: 60px;
+  justify-content: center;
+  margin: 0;
+  padding: 30px;
+}
+
+@media (max-width: 426px) {
+  .list {
+    font-size: 14px;
+    grid-template-columns: repeat(4, auto);
+    gap: 20px;
+    justify-content: space-around;
+    padding: 10px;
+  }
+}
+
+.list a {
+  display: inline-block;
+  color: orange;
+  text-decoration: none;
+  cursor: pointer;
+  transition: 0.3s linear;
+}
+
+.list a:hover {
+  transform: scale(1.1);
+}
+
+.list a.active-link {
+  color: lightgreen;
+}
