@@ -1,0 +1,6 @@
+.picture {
+  display: block;
+  box-shadow: 8px 8px 8px 0px #818181;
+  width: 80%;
+  margin: 30px auto;
+}
