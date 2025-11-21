@@ -1,7 +1,7 @@
 .list {
-  background: #222;
+  background: black;
   list-style: none;
-  font-size: xx-large;
+  font-size: x-large;
   display: grid;
   grid-template-columns: repeat(7, auto);
   gap: 60px;
@@ -12,7 +12,7 @@
 
 @media (max-width: 426px) {
   .list {
-    font-size: 14px;
+    font-size: 12px;
     grid-template-columns: repeat(4, auto);
     gap: 20px;
     justify-content: space-around;
