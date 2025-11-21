@@ -24,5 +24,7 @@
     </p>
   </form>
 
-  <p *ngIf="isSent" class="sent">Wiadomość została wysłana!</p>
+  @if (isSent()) {
+  <p class="sent">Wiadomość została wysłana!</p>
+  }
 </section>
