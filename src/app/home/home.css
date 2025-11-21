@@ -1,0 +1,65 @@
+.header-styles {
+  max-width: 1000px;
+  display: grid;
+  grid-template-columns: auto 1fr;
+  margin: 50px auto;
+  text-align: center;
+  font-size: x-large;
+  font-weight: 700;
+}
+
+.title {
+  font-size: 50px;
+  margin: 40px auto;
+  color: blue;
+  text-shadow: 2px 2px 20px #333;
+}
+
+.logo {
+  margin: auto;
+}
+
+.picture {
+  display: block;
+  width: 80%;
+  margin: auto;
+}
+
+.content {
+  width: 80%;
+  margin: 50px auto;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+  text-align: center;
+}
+
+.tile {
+  background: #eee;
+  padding: 80px;
+}
+
+@media (max-width: 768px) {
+  .header-styles {
+    grid-template-columns: auto;
+    font-size: large;
+    margin: 20px auto;
+  }
+
+  .title {
+    font-size: 30px;
+    margin: 20px auto;
+  }
+
+  .logo {
+    width: 150px;
+  }
+
+  .content {
+    grid-template-columns: auto;
+  }
+
+  .tile {
+    padding: 20px;
+  }
+}
