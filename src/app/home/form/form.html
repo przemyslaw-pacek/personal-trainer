@@ -1,0 +1,27 @@
+<section id="contact" class="contact">
+  <h2>Kontakt</h2>
+  <form class="contact-form" (ngSubmit)="sendMessage()">
+    <label>
+      Imię
+      <input type="text" [(ngModel)]="name" name="name" required />
+    </label>
+    <label>
+      Email
+      <input type="email" [(ngModel)]="email" name="email" required />
+    </label>
+    <label>
+      Wiadomość
+      <textarea [(ngModel)]="message" name="message" required></textarea>
+    </label>
+    <button type="submit">Wyślij</button>
+    <p class="clause">
+      Wyrażam zgodę na przetwarzanie moich danych osobowych zgodnie z ustawą o ochronie danych
+      osobowych oraz Rozporządzenia 2016/679. Podanie danych jest dobrowolne, ale niezbędne do
+      przetworzenia zapytania. Zostałem poinformowany, że przysługuje mi prawo dostępu do swoich
+      danych, możliwości ich poprawiania, żądania zaprzestania ich przetwarzania. Klikając WYŚLIJ
+      akceptujesz wszystkie powyższe warunki.
+    </p>
+  </form>
+
+  <p *ngIf="isSent" class="sent">Wiadomość została wysłana!</p>
+</section>
