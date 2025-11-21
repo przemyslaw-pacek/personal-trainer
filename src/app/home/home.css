@@ -4,7 +4,7 @@
   grid-template-columns: auto 1fr;
   margin: 50px auto;
   text-align: center;
-  font-size: x-large;
+  font-size: xx-large;
   font-weight: 700;
 }
 
@@ -37,6 +37,7 @@
 .tile {
   background: #eee;
   padding: 80px;
+  font-size: large;
 }
 
 @media (max-width: 768px) {
