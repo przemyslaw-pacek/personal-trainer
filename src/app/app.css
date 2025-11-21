@@ -2,6 +2,7 @@
   background: black;
   list-style: none;
   font-size: x-large;
+  font-weight: 700;
   display: grid;
   grid-template-columns: repeat(7, auto);
   gap: 60px;
@@ -10,11 +11,11 @@
   padding: 30px;
 }
 
-@media (max-width: 426px) {
+@media (max-width: 768px) {
   .list {
     font-size: 12px;
     grid-template-columns: repeat(4, auto);
-    gap: 20px;
+    gap: 15px;
     justify-content: space-around;
     padding: 10px;
   }
@@ -34,4 +35,22 @@
 
 .list a.active-link {
   color: lightgreen;
+}
+
+.info {
+  background: black;
+  color: #ccc;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.info a {
+  color: inherit;
+  padding-left: 10px;
+  text-decoration: none;
+}
+
+.info a:hover {
+  filter: brightness(80%);
 }
