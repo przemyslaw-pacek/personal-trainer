@@ -1,4 +1,5 @@
 .list {
+  font-family: 'Rajdhani', sans-serif;
   background: black;
   list-style: none;
   font-size: x-large;
@@ -38,6 +39,7 @@
 }
 
 .info {
+  font-family: 'Rajdhani', sans-serif;
   background: black;
   color: #ccc;
   display: flex;
