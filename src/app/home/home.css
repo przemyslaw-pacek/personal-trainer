@@ -34,8 +34,8 @@
   text-align: center;
 }
 
-.tile {
-  background: #eee;
+.card {
+  background: #ccc;
   padding: 80px;
   font-size: large;
 }
