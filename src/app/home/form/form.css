@@ -7,7 +7,6 @@
 
 .contact h2 {
   text-align: center;
-  margin-bottom: 20px;
 }
 
 .contact-form {
@@ -61,6 +60,7 @@
 
 .clause {
   color: #ccc;
+  text-align: justify;
 }
 
 .sent {
@@ -78,6 +78,19 @@
 }
 
 @media (max-width: 768px) {
+  .contact {
+    padding: 20px 30px 0;
+  }
+
+  .contact-form button {
+    padding: 6px 18px;
+    font-size: 16px;
+  }
+
+  .clause {
+    font-size: small;
+  }
+
   .sent {
     padding: 8px 14px;
     font-size: 14px;

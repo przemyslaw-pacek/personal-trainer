@@ -15,7 +15,7 @@
 @media (max-width: 768px) {
   .list {
     font-size: 12px;
-    grid-template-columns: repeat(4, auto);
+    grid-template-columns: repeat(3, auto);
     gap: 15px;
     justify-content: space-around;
     padding: 10px;
@@ -55,4 +55,18 @@
 
 .info a:hover {
   filter: brightness(80%);
+}
+
+@media (max-width: 768px) {
+  .list {
+    font-size: 12px;
+    grid-template-columns: repeat(3, auto);
+    gap: 15px;
+    justify-content: space-around;
+    padding: 10px;
+  }
+
+  .info {
+    padding: 20px;
+  }
 }
