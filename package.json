@@ -8,7 +8,7 @@
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
     "serve:ssr:trener-personalny": "node dist/trener-personalny/server/server.mjs",
-    "predeploy": "ng build --configuration production --base-href /personal-trainer",
+    "predeploy": "ng build --configuration production --base-href /personal-trainer/",
     "deploy": "gh-pages -d dist/trener-personalny/browser"
   },
   "prettier": {
