@@ -4,7 +4,6 @@ import { Achievements } from './achievements/achievements';
 import { Transform } from './transform/transform';
 import { Gallery } from './gallery/gallery';
 import { About } from './about/about';
-import { Training } from './training/training';
 import { Terms } from './terms/terms';
 
 export const routes: Routes = [
@@ -13,7 +12,6 @@ export const routes: Routes = [
   { path: 'transform', component: Transform },
   { path: 'gallery', component: Gallery },
   { path: 'about', component: About },
-  { path: 'training', component: Training },
   { path: 'regulamin', component: Terms },
   { path: 'polityka-prywatnosci', component: Terms },
 ];
