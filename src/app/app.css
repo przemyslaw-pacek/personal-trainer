@@ -12,16 +12,6 @@
   padding: 30px;
 }
 
-@media (max-width: 768px) {
-  .list {
-    font-size: 12px;
-    grid-template-columns: repeat(3, auto);
-    gap: 15px;
-    justify-content: space-around;
-    padding: 10px;
-  }
-}
-
 .list a {
   display: inline-block;
   color: orange;
@@ -59,9 +49,9 @@
 
 @media (max-width: 768px) {
   .list {
-    font-size: 12px;
+    font-size: 15px;
     grid-template-columns: repeat(3, auto);
-    gap: 15px;
+    gap: 10px;
     justify-content: space-around;
     padding: 10px;
   }
