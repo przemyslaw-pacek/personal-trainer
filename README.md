@@ -1,5 +1,19 @@
 # TrenerPersonalny
 
+![image](./image.png)
+
+This project was created in Angular as part of a recruitment task. All content and images used in this application were sourced from publicly available materials on the internet and are the property of their respective owners. They are used here solely for non-commercial, educational purposes.
+
+## Demo
+
+If you want to check, clik [here](https://przemyslaw-pacek.github.io/personal-trainer/).
+
+## Technologies:
+
+- HTML
+- CSS
+- Angular
+
 This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 20.3.11.
 
 ## Development server
