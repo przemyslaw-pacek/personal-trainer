@@ -10,7 +10,9 @@ html {
 
 body {
   font-family: 'Roboto', sans-serif;
+  background-image: url('assets/backbround.jpg');
+  background-size: cover;
+  background-position: center;
   word-break: break-word;
-  background: #eee;
   margin: 0;
 }
