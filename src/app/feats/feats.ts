@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { CardItem, feats } from '../data';
 
 @Component({
   selector: 'app-feats.',
@@ -6,4 +7,6 @@ import { Component } from '@angular/core';
   templateUrl: './feats.html',
   styleUrl: './feats.css',
 })
-export class Feats {}
+export class Feats {
+  feats: CardItem[] = feats;
+}
