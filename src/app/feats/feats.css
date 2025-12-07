@@ -25,6 +25,10 @@ h1 {
   font-size: 50px;
 }
 
+.main div p {
+  text-transform: uppercase;
+}
+
 h2 {
   text-align: center;
 }
